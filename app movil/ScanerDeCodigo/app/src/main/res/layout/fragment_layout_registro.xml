@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layout_registro">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="#00FFFFFF"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="50dp"
+        android:layout_alignParentTop="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ListView
+                android:id="@+id/lista"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:foregroundGravity="top"
+                android:layout_gravity="top"/>
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_camara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+
+
+            android:backgroundTint="@color/color_rosa"
+            android:src="@drawable/ic_btn_camera_blanco"
+            android:tint="#FFFFFF"
+            app:borderWidth="0dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            app:elevation="4dp"
+            app:fabSize="auto"
+            app:tint="@null" />
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true">
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@drawable/ic_fondo_txt_chat">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/txt_enviar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+
+                        android:background="@drawable/ic_fondo_textview"
+                        android:hint="@string/txt_chat"
+                        android:inputType="text"
+                        android:textColorHighlight="#E91E63"
+                        android:textColorLink="#E91E63"
+                        android:maxLength="100"
+                        android:textCursorDrawable="@color/color_rosa"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="15dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/btn_enviar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/zxing_transparent"
+                        android:foregroundGravity="center_vertical"
+                        android:src="@drawable/ic_enviar"
+                        android:tint="#E91E63"
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

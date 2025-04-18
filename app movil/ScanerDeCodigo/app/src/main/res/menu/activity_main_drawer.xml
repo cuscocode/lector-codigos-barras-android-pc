@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/layout_configuracion"
+            android:icon="@drawable/cnfig"
+            android:title="@string/menu_configuracion" />
+
+        <item
+            android:id="@+id/layout_registro"
+            android:icon="@drawable/ic_barras"
+            android:title="@string/menu_registro" />
+        <item
+            android:id="@+id/layout_venta"
+            android:icon="@drawable/escanner_venta"
+            android:title="@string/menu_venta" />
+        <item
+            android:id="@+id/layout_hacerca"
+            android:icon="@drawable/hacerca_de"
+            android:title="@string/menu_hacerca" />
+    </group>
+</menu>

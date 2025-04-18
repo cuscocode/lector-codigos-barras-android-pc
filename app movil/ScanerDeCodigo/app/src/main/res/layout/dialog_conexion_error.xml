@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal|center"
+    android:background="@color/zxing_transparent"
+    android:foregroundGravity="center_vertical|center_horizontal">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/zxing_transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/ic_fondo_config_dialog"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingTop="50dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="50dp"
+            android:layout_gravity="center"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/error_grande" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/tv_error_conec"
+                android:textColor="@color/color_rosa"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center|center_horizontal">
+
+                <ImageButton
+                    android:id="@+id/buton_actualizar_dialogo_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_btn_scanner_confi"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_actualizar"
+                    android:tint="#FFFFFF"
+                    android:layout_margin="15dp"/>
+                <ImageButton
+                    android:id="@+id/buton_actualizar_dialogo_ayuda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_btn_scanner_confi"
+
+                    android:src="@drawable/ic_hacerca"
+                    android:tint="#FFFFFF"
+                    android:layout_margin="15dp"/>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_aceptar_dialogo_error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:padding="10dp"
+                android:text="@string/btn_ignorar"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/ic_boton_stilo"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

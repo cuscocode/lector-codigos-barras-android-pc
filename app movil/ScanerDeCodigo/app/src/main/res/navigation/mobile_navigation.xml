@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/layout_registro">
+    <fragment
+        android:id="@+id/layout_configuracion"
+        android:name="com.example.scanerdecodigo.layout_configuracion"
+        android:label="fragment_layout_configuracion"
+        tools:layout="@layout/fragment_layout_configuracion" />
+    <fragment
+        android:id="@+id/layout_venta"
+        android:name="com.example.scanerdecodigo.layout_venta"
+        android:label="fragment_layout_venta"
+        tools:layout="@layout/fragment_layout_venta" />
+    <fragment
+        android:id="@+id/layout_registro"
+        android:name="com.example.scanerdecodigo.layout_registro"
+        android:label="fragment_layout_registro"
+        tools:layout="@layout/fragment_layout_registro" />
+    <fragment
+        android:id="@+id/layout_hacerca"
+        android:name="com.example.scanerdecodigo.layout_hacerca"
+        android:label="fragment_layout_hacerca"
+        tools:layout="@layout/fragment_layout_hacerca" />
+</navigation>

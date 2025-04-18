@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layout_hacerca">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:paddingBottom="50dp"
+            android:paddingTop="50dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/ic_fondo_config_dialog"
+                android:orientation="vertical"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingBottom="50dp">
+
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="@string/tv_instalacion"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_descarga_frag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center|left"
+                    android:textColorLink="@color/color_rosa"
+                    android:text="@string/tv_intalacion1"
+                    android:textColor="@color/color_subtexto"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center|left"
+                    android:text="@string/tv_intalacion2"
+                    android:textColor="@color/color_subtexto"
+                    android:textSize="16dp"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center|left"
+                    android:text="@string/tv_intalacion3"
+                    android:textColor="@color/color_subtexto"
+                    android:textSize="16dp"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center|left"
+                    android:text="@string/tv_intalacion4"
+                    android:textColor="@color/color_subtexto"
+                    android:textSize="16dp"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:id="@+id/textVie10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center|left"
+                    android:text="@string/tv_intalacion5"
+                    android:textColor="@color/color_subtexto"
+                    android:textSize="16dp"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:id="@+id/textVie11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center|left"
+                    android:text="@string/tv_intalacion6"
+                    android:textColor="@color/color_subtexto"
+                    android:textSize="16dp"
+                    android:layout_marginTop="5dp"/>
+
+
+                <TextView
+                    android:id="@+id/tv_vervideo_frag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="@string/tv_intalacion_video"
+                    android:textColorLink="@color/color_rosa"
+                    android:textColor="@color/color_rosa"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:background="#D27C23D5"
+                android:padding="10sp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/textVie111"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="left"
+                    android:text="@string/tv_intalacion_recomentacion"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"/>
+                <TextView
+                    android:id="@+id/textVie112"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="left"
+                    android:text="@string/tv_intalacion_recomentacion2"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:id="@+id/textVie113"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="left"
+                    android:text="@string/tv_intalacion_recomentacion3"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:layout_marginTop="5dp"/>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/cuscocode"
+                android:layout_marginTop="50dp" />
+
+            <TextView
+                android:id="@+id/tv_pagina_Web"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/tv_pagina"
+                android:textColor="@color/black"
+                android:textColorLink="#45107A"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/tv_agencia"
+                android:textColor="@color/color_subtexto"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/whatsappofi" />
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/youtube" />
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/cromo" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/tv_appversion"
+                android:textColor="@color/color_subtexto"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/tv_desarrollador"
+                android:textColor="@color/color_subtexto"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/tv_nombre_desarrollador"
+                android:textColor="@color/color_subtexto"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_mumero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/tv_numero_cel"
+                android:textColor="@color/color_subtexto"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColorLink="@color/color_rosa"/>
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/tv_pais"
+                android:textColor="@color/color_subtexto"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
