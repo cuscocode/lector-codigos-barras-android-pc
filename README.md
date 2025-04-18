@@ -40,10 +40,10 @@ Los datos llegarán automáticamente a la PC
    -Para mejor rendimiento, usa conexión cableada en la PC
 
 
-![Imagen 1](captura/2.jpeg)
-![Imagen 2](captura/2.png)
-![Imagen 3](captura/3.jpeg)
-![Imagen 4](captura/4.jpeg)
-![Imagen 5](captura/5.jpeg)
-![Imagen 6](captura/6.jpeg)
+![Imagen 1](capturas/2.jpeg)
+![Imagen 2](capturas/2.png)
+![Imagen 3](capturas/3.jpeg)
+![Imagen 4](capturas/4.jpeg)
+![Imagen 5](capturas/5.jpeg)
+![Imagen 6](capturas/6.jpeg)
 
